@@ -14,7 +14,7 @@ var posts = postsService.getPosts().slice(0,3);
 router.get('/posts', function(req, res, next) {
   var posts = postsService.getPosts();
   
-    res.render('index', { title: 'Posts', posts: posts });
+    res.render('indexpost', { title: 'Posts', posts: posts });
   });
 
 router.get('/projects', function(req, res, next) {
