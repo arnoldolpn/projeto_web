@@ -8,3 +8,27 @@
     margin-bottom: 20px;
     color: blue;
 }
+
+.testimonial-description {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.blockquote-footer {
+    color: blue;
+}
+
+.card-header {
+    color: darkred;
+    font-weight: bold;
+}
+
+.botao {
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;    
+}

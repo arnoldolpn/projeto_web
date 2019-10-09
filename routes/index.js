@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var postsService = require('../services/postsService');
 var projectsService = require('../services/projectsService');
-var postService = require('../services/projectsService');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
